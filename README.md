@@ -1,2 +1,2 @@
-# URL_Shortener
-URL_Shortener using HTML, CSS &amp; JS
+# HTML Projects
+This file contains all HTML Project
