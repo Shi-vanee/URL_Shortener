@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css">
+  <title>URL Shortener</title>
+</head>
+<body>
+  <div class="container">
+    <h1>URL Shortener</h1>
+    <label for="originalUrl">Enter URL to shorten:</label>
+    <input type="text" id="originalUrl" placeholder="https://example.com" />
+
+    <div class="button">
+      <button id="reload-btn">Reload</button>
+      <button id="short-btn">Shorten It</button>
+    </div>
+
+    <label for="shortenURLTextarea">Shortened URL:</label>
+    <textarea id="shortenURLTextarea" cols="30" rows="3" readonly></textarea>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
